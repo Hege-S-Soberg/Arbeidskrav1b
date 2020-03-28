@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeidskrav1</title>
+    <link rel="stylesheet" href="style-new.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <!--Besvarelsen er et fiktivt event/arrangement, i hht Arbeidskrav- oppgave   -->
+</head>
+
+<body>
+  
+    
+<!-- Logo fra MS- forbundet er brukt, men undertekst er justert til arrangementet på denne web- siden. Ligger øverst til venstre, fordi det er der vi ser først. Er festet for å være synlig selv om du skulle komme inn på et underpunkt på siden  -->
+<!--Linken fra logo fungerer ikke til overskriften på smal skjerm, men går fint ved bred skjerm. Måtte derfor linke til forsidebilde. Dårlig løsning, må finne ut hvorfor.-->
+    <div>
+        <a href="#sign"><img src="logo-man.jpg" alt="Logo" id="logo">
+    </a>
+    </div>
+    
+    
+    <!--Knappen er laget med styling tilsvarende menyen, men lagt på andre siden av skjermen. -->
+    <div id="sign">
+        <a href="#skjemaoverskrift"><button class="knapp">
+            Meld deg på MS- camp
+        </button></a>
+    </div>
+    
+    <!--Her påvirker parent- elementet "Fargeboks" også teksten i oversktiften, blant annet på opacity.-->     
+    <div class="fargeboks"><br>
+        <header class="hovedoverskrift">
+            <p id="over-over">MS- høstcamp- 2020</p>
+            <p id="overskrift">Livsglede</p>
+        </header>
+    </div>
+    
+    
+    <!--Menyen ligger til venstre på pc- skjerm, og på toppen på telefonskjerm. Det er her vi forventer at det skal ligge -->
+    <!--Menyen er lagt på toppen og fester seg på toppen på skjerm under 800px -->
+    <div>
+        <ul>
+            <li><a href="#tekst">Høst-camp</a></li>
+            <li><a href="#picture1">Bilder</a></li>
+            <li><a href="#tabelloverskrift">Program</a></li>
+            <li><a href="#skjemaoverskrift">Påmelding</a></li>
+            <li><a href="#praktisk">Praktisk info</a></li>
+        </ul>
+    </div>
+    
+    
+    <!--Bilde er valgt for å skape liv på forsiden. Bilder av mennesker gi sterkere inntrykk. Er plassert over tre bokser med kjapp informasjon.-->
+    <div>
+        <img src="Oystein2.png" alt="forsidebilde" id="forsidebilde">
+    </div>
+        
+    <!--Tre bokser med nøkkelspørsmål. Er laget blant annet for å øke søkbarhet på web, med gjentakelse av arrangementstittelen. -->
+    <div class="kolonneramme">     
+        <div class="boks">
+            <img class="kolonnebilde" src="Tiriltunge.jpg" alt="boksbilde"/>
+                        
+            <article class="bokstekst">
+                <h3 class="bokstopp">Hva er MS- høstcamp?</h3>
+                <p>MS- høstcamp er leir på MS- senteret i Hakadal.<br>
+                Arrangementet holdes fra 5.-11. oktober, altså i Øst- Norges høstferie.<br>    
+                Campen arrangeres av MS- foreningen i Viken, og vi har 40 plasser på MS-campen 2020.</p>
+            </article>
+        </div>    
+              
+        <div class="boks">
+            <img class="kolonnebilde" src="Rogn.jpg" alt="boksbilde"/>
+            
+            
+            <article class="bokstekst">
+                <h3 class="bokstopp">Hvem kan være med på MS- høstcamp?</h3>
+                <p>Alle familier der noen har MS, kan delta.<br>
+                Hovedfokus er livsglede og samspill i familien, og fagtilbudet står sentralt.<br>
+                Barn og unge får rikelig med aktivitetstilbud. Både sammen med andre barn og sammen med de voksne.</p>    
+                </article>
+        </div>
+             
+        <div class="boks">
+            <img class="kolonnebilde" src="Tiriltunge.jpg" alt="boksbilde"/>
+            
+            
+            <article class="bokstekst">
+                <h3 class="bokstopp">Hvordan melder jeg meg på MS-høstcamp?</h3>
+                <p>Meld deg på MS- campen ved å fylle ut skjemaet under "Påmeldin"g.<br>
+                Fyll ut alle feltene, trykk på "send svar"- knapen. Du får svar på påmeldingen etter påmeldingsfristen 1. august.<br>
+               Hvis du lurer på noe, finner du noen å snakke med under fanen "Praktisk info.".</p>
+                    
+            </article>
+        </div>
+        
+    </div>
+    
+    <!--Informasjon i en artikkel om arrangementet. Inneholder overskrifter, tekst og liste. -->
+    <div>
+        <article id="tekst">
+        <h1 id="dette">Dette er MS-høstcamp 2020 </h1>
+            
+        <h2>Tilbud til deltakere på MS- camp 2020</h2>
+        <p>Medlemmer av MS- forbundet tilbys opphold på MS- senteret i Hakadal til selvkost- pris. 
+        <p>Det legges vekt på at campen skal være sosial, opplevelsesrik og lærerik.</p> 
+        <p>Underveis får du veiledning tilpasset din sykdom og situasjon, men også tips og triks om hvordan livet kan gjøres enklere sammen med familien.</p>
+        <p>Fokus skal være livsglede og et verdifult familieliv for alle.</p>
+                    
+        <h2>Hva kan vi gjøre på MS- camp?</h2>    
+        <p>MS- høstcamp skal være en hyggelig og spennende høstferie for familien.</p>
+        <p>På  ferie, er det viktig med opplevelser, god mat og hyggelige stunder sammen med andre og hverandre.</p>
+            
+        <p> Mellom hyggestunder, inviteres dere til gode innledninger om medisinske forhold, trening og aktiviteter som vil gi minner for livet.</p>
+        <p>"Livsglede" er gjennomgående tema for høstcampen. Våre aktiviteter er ment å bygge opp under dette, og er tilrettelagt for at alle kan være med. </p>
+        <p>I programmet finner du de ulike fellesaktivitetene.</p> 
+        
+        <p> Noen ganger inviteres alle til samme opplegg, andre ganger er det kune de med MS, og andre ganger er det egne samlinger for barna eller partner. Når det ikke er fallesaktiviteter, er det opp til den enkelte familie eller gruppe å finne på ting selv. Turer i skogen, ved vannet eller kanskje en real fotballkam? </p>
+        <p>Alle inviteres til å bli med på alt som er gøy. Det legges opp til turer, og det blir inneaktiviteter når været tilsier det.</p>
+        <p>Den som trenger en pust i bakken, kan ta litt tid alene. Det skal være godt å være på MS-høstcamp. 
+        </p>
+            
+        <h2>Hvem er på MS- campen?</h2>
+        <p>Familier med barn prioriteres på MS- høstcamp. Hvis deltakerfamiliene ønsker besøk fra familie og kjente, er det absolutt mulig å få til. Av hensyn til matservering, må det varsles èn dag i forveien.</p> 
+        <p>Dersom det er ønske om overnatting, henvises besøkende til Staven Camping ca 1 km nord for MS- senteret. Hunder og andre dyr kan dessverre ikke være med denne uka.</p>
+        
+        <p>Fra MS- forbundets, er det 4 representanter som står for arrangement. Fra MS- senteret deltar nevrologer, fysioterapeuter og aktivitører under de seansene der de er aktuelle innledere eller hjelpere. På kjøkkenet holder kokker maten i gang på beste vis. Syke- og hjelpepleiere har vakt om natten, og stiller opp for oss hele dagen.</p> 
+        <p>Du skal ivaretas på beste måte, enten du er den med MS eller en i familien</p>
+        
+        <h2>Aktiviteter for barn og unge</h2>    
+        <p>MS- camp skal være gøy for alle. Det er lagt opp til både ute- og inneaktiviteter for barn og unge. Det er fine turløyper i området, og det går fint an å legge ut på fine turer i lett terreng. På dager med fint vær, kan vi ta med båtene ut på vannet, fiske, og grille når vi kommer på land. Personaet følger de unge på oppsatte aktiviteter dersom mor/far er opptatt.</p>
+            
+        <p>Av inne- aktiviteter tilbyr vi trening og lek i sal, og vi har masse hobby- materiell for alle aldre. </p>
+            
+        <p>I programmet står det oppført når aktiviteter skal foregå, men hvilke det blir, må bestemmes etter interesse og tilpasses til hvordan været blir. </p>
+        <p>- Vi kan jo for eksempel ikke sitte inne og spille kort i knallfint vær!</p>
+        
+        <h2>Hva kan vi forvente å lære på MS- camp?</h2>
+        <p>MS- forbundet har som mål at alle skal ha med seg ny kunnskap hjem etter oppholdet. Det er viktig å få en viss kunnskap om MS- sykdommen, men også hvordan leve med den. </p>
+        <p> Den MS- rammede og familien skal være litt tryggere og vite litt mer om hva som er bra tiltak med denne sykdommen. Det være seg kosthold, trening eller livsstil.</p> 
+        <p>Familien skal være litt mer oppmerksom på hvordan sykdommen arter seg, og litt tryggere på hvordan de skal forholde seg. Ikke minst er det viktig å vite hvor det er hjelp og bistand å få for alle i familien. Ingen skal stå alene.</p>  
+        </article>
+    </div>
+    
+    <div id="aktiviteter">
+            <h2>Tema for aktivitetene på MS- høstcamp</h2>
+        
+            <div class="akt">
+                <h3>Aktiviteter for alle</h3>
+            <ol>
+                <li>Utflukter i skog og vann</li>
+                <li>Fisking og bading</li>
+                <li>Fotokurs og konkurranse</li>
+                <li>Trim og lek i sal</li>
+                <li>Trim og lek ute</li>
+            </ol>
+            </div>
+        
+            <div class="akt">
+                <h3>Tema for de voksne</h3>
+            <ol>
+                <li>Fakta om MS</li>
+                <li>MS i familien</li>
+                <li>MS og fysisk aktivitet</li>
+                <li>Livsglede og MS</li>
+                <li>Om MS- forbundets arbeid</li>
+            </ol>
+            </div>
+    
+        
+        <div class="akt">
+                <h3>Aktiviteter for barn</h3>
+            <ol>
+                <li>Bading </li>
+                <li>Tur i klatreparken</li>
+                <li>Sang og teater</li>
+                <li>Ballspill</li>
+                <li>Fisking</li>
+            </ol>
+         </div>
+    </div>
+    
+    <!--Bildene er lagt inn i kvaadratisk format i galleriet, og kan klikkes på, og kommer opp i større versjon og full bredde i ny fane -->
+    <picture id="picture1">
+        
+        <div class="galleri">
+            <a target="_blank" href="Vann.jpg">
+                <img class="bilder" src="Vann-S.jpg" alt="Vann" >
+            </a>
+            <div class="beskrivelse">I elven kan det padles, fiskes og bades. Den er like fin ved MS- senteret som ved campingen!</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Tur.jpg">
+            <img class="bilder" src="Tur-S.jpg" alt="Skogstur">
+            </a>
+            <div class="beskrivelse">Området innbyr til tur på fine, tilrettelagte stier. De aller fleste stiene er tilgjengelig for rullestol.</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Kirka.jpg">
+            <img class="bilder" src="Kirka-S.jpg" alt="Kirka">
+            </a>
+            <div class="beskrivelse">Kirken i Hakadal ligger vakket til langs en av de vanligste turløypene.</div>
+        </div>
+        
+            <div class="galleri">
+            <a target="_blank" href="Kubb.jpg">
+        <img class="bilder" src="Kubb-S.jpg" alt="Kubbturnering">
+            </a>
+        <div class="beskrivelse">Kubb er en morsom aktivitet der alle stiller likt. Trigger konkurranseinstinktet!</div>
+        </div>
+            
+        <div class="galleri">
+            <a target="_blank" href="Boccia.jpg">
+        <img class="bilder" src="Boccia-S.jpg" alt="Boccia">
+            </a>
+        <div class="beskrivelse">Boccia setter i gang  konkurranseinstinktet! Her bygger vi lag og samhold.</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Treningsball.jpg">
+                <img class="bilder" src="Treningsball-S.jpg" alt="Trening">
+            </a>
+            <div class="beskrivelse">Treningssalen på MS- senteret har gode treningsgadgets. Fysioterapeutene har teknikkene.</div>
+        </div>
+            
+               
+        <div class="galleri">
+            <a target="_blank" href="Heidi-Ingunn.jpg">
+        <img class="bilder" src="Heidi-Ingunn-S.jpg" alt="Soltime">
+            </a>
+        <div class="beskrivelse">Sol er bra for både MS og humøret. En pust i bakken er vel fortjent etter aktive dager. </div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Buffet.jpg">
+        <img class="bilder" src="Buffet-S.jpg" alt="Kveldsmat" >
+            </a>
+        <div class="beskrivelse">MS- senterets kjøkken har med dette fått vår anbefaling. Fullt med farger, vitaminer og nydelig mat!</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Puslespill.jpg">
+        <img class="bilder" src="Puslespill-S.jpg" alt="Inneaktiviteter" width="400px" height="auto">
+            </a>
+        <div class="beskrivelse">Et langtidsprosjekt med et puslespill på mange brikker, er gøy. Hvis alle får til noen brikker hver, kommer vi i mål! </div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Baalkos.jpg">
+        <img class="bilder" src="Baalkos-S.jpg" alt="baalkos">
+            </a>
+        <div class="beskrivelse">Lange kvelder med fyr på bålet. Hva er vel en camp uten dette? Her kan det grille, synges og spilles.</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Band.jpg">
+        <img class="bilder" src="Band-S.jpg" alt="Band">
+            </a>
+        <div class="beskrivelse">Noen vil lære seg noe nytt, eller noen som kan spille fra før? Det er mulig å stille husband i løpet av høstcamp`en.</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Kake.jpg">
+        <img class="bilder" src="Kake-S.jpg" alt="Kakefest">
+            </a>
+        <div class="beskrivelse">Når noe skal feires, feires det gjerne med ei gedigen kake! Personalet stiller med baking og servering. </div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Scooter.jpg">
+        <img class="bilder" src="Scooter-S.jpg" alt="Scooter">
+            </a>
+        <div class="beskrivelse">Hvis du sliter med lange avstander, er det hjelpemidler til låns. Disse tøffe scooterne, eller en rullestol, gåstaver eller annet. </div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Bibliotek.jpg">
+        <img class="bilder" src="Bibliotek-S.jpg" alt="Bibliotek">
+            </a>
+        <div class="beskrivelse">Biblioteket er innholdsrikt. Det er bøker av mange sjangere, litt hobby- og tegnesaker og dessuten PC og skriver.</div>
+        </div>
+        
+        <div class="galleri">
+            <a target="_blank" href="Festmiddag.jpg">
+        <img class="bilder" src="Festmiddag-S.jpg" alt="Festmiddag">
+            </a>
+        <div class="beskrivelse">Det arrangeres èn festmiddag på MS- høstcamp, og det er ved avslutningen. Nydelig mat, og godt, alkoholfrittt drikke. Vel hjem!</div>
+        </div>
+    </picture>
+    
+    <!--Tabellen er laget for programmet i arrangementet. Rutene i tabellen utvider seg på mindre skjerm for å øke lesbarhet. Note: sjekk på telefon -->
+    <div id="tabellramme">
+    <div>
+        <p id="tabelloverskrift">Program for MS-camp 2020</p>       
+    </div>
+        
+    <table class="program">
+        <tr>
+            <th>Kl</th>
+            <th>Søndag</th>
+            <th>Mandag</th>
+            <th>Tirsdag</th>
+            <th>Onsdag</th>
+            <th>Torsdag</th>
+            <th>Fredag</th>
+            <th>Lørdag</th>
+            <th>Søndag</th>
+        </tr>
+        
+         <tr>
+            <th>08.00-09.00</th>
+            <td></td>
+            <td>Morgentrim</td>
+            <td>Morgentrim</td>
+            <td>Morgentrim</td>
+            <td>Morgentrim</td>
+            <td>Morgentrim</td>
+            <td>Morgentrim</td>
+            <td>Morgentrim</td>
+        </tr>
+        
+        <tr>
+            <th>09.00-10.00</th>
+            <td></td>
+            <td>Frokost</td>
+            <td>Frokost</td>
+            <td>Frokost</td>
+            <td>Frokost</td>
+            <td>Frokost</td>
+            <td>Frokost</td>
+            <td>Frokost</td>
+        </tr>
+        
+        <tr>
+            <th>10.00-11.00</th>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+            <td>Aktiviteter for barna</td>
+        </tr>
+        
+        
+        <tr>
+            <th>11.00-12.00</th>
+            <td>Ankomst</td>
+            <td>Faglig</td>
+            <td>Faglig</td>
+            <td>Faglig</td>
+            <td>Faglig</td>
+            <td>Faglig</td>
+            <td>Faglig</td>
+            <td>Faglig</td>
+        </tr>
+        
+        <tr>
+            <th>12.00-13.00</th>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+            <td>Lunsj</td>
+        </tr>
+        
+        <tr>
+        <th>13.00-14.00</th>
+            <td>Velkommen!</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>14.00-15.00</th>
+            <td></td>
+            <td>Felles trim</td>
+            <td>Utflukt</td>
+            <td>Felles trim</td>
+            <td>Felles trim</td>
+            <td>Utflukt</td>
+            <td>Felles trim</td>
+            <td>Hjemreise</td>
+        </tr>
+
+        <tr>
+            <th>15.00-16.00</th>
+            <td>Bli kjent</td>
+            <td></td>
+            <td>Utflukt</td>
+            <td></td>
+            <td></td>
+            <td>Utflukt</td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>16.00-17.00</th>
+            <td>Felles aktiviteter</td>
+            <td>Felles aktiviteter</td>
+            <td>Grilling</td>
+            <td>Felles aktiviteter</td>
+            <td>Felles aktiviteter</td>
+            <td>Grilling</td>
+            <td>Felles aktiviteter</td>
+            <td>Felles aktiviteter</td>
+        </tr>
+        
+        <tr>
+            <th>17.00-18.00</th>
+            <td>Middag</td>
+            <td>Middag</td>
+            <td></td>
+            <td>Middag</td>
+            <td>Middag</td>
+            <td></td>
+            <td>Middag</td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <th>Kveld</th>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+            <td>Kveldsmat kl 8-9</td>
+        </tr>
+    </table>
+    </div>
+    
+            
+<!--Det er laget påmeldingsskjema med mulighet til å legge inn opplysninger. "Send svar"-knappen har i dette oppsettet ingen funksjon, da det mangler mottaker- side for de dataene som legges inn i skjemaet. Den er likevel satt inn, da den naturlig hører til i et slikt oppsett. -->
+<!--Måtte bruke <br> i stedet for å legge inn margin i label eller input, da teksten forsvant uten <br>. Må finne ut av dette. -->
+<form action="#" class="skjema" target="_blank" method="get">
+            
+        <div id="skjemaoverskrift">
+            <h1>Påmeldingsskjema.</h1>
+            <h2>Frist: 1.august 2020</h2>
+        </div>
+            
+            <label class="hode" for="navn">Navn:</label>
+            <input type="text" name="navn" class="skrivefelt"><br>
+            <label class="hode" for="adresse">Adresse:</label>
+            <input type="text" name="adresse" class="skrivefelt"><br>
+            <label class="hode" for="email">Mailadresse:</label>
+            <input type="text" name="mailadresse" class="skrivefelt"><br>
+            <label class="hode" for="phone">Telefonnummer:</label>
+            <input type="tel" name="telefonnummer" class="skrivefelt"><br>
+            <label class="hode" for="antall">Hvor mange deltar på camp fra din familie?</label>
+            <input type="number" name="antall" class="skrivefelt"><br>
+            <label class="hode" for="antall">Hvor mange er barn under 14 år?</label>
+            <input type="number" name="antall" class="skrivefelt"><br>
+            <label class="hode" for="boplass">Foretrekker familien plass inne på senteret, eller å bo på campingplassen?</label><br>
+            <input type="text" name="boplass" class="skrivefelt">
+            <br><br>
+                
+        <input type="submit" value="Send svar" class="svarknapp">
+
+        <div class="kommentar">
+            <p>Du får svar på om din familie er kommet med på "MS- høstcamp 2020" i løpet av den andre uka i august.
+            </p>
+            <p>De som får delta på MS- høstcamp, får mail med mer informasjon og noen flere spørsmål du må besvare. Vi vil at deltakerne skal få den beste opplevelsen av høstcampen, og vil tilpasse den enkeltes ønsker og behov. </p>
+        </div>            
+    </form>
+    
+    <article id="praktisk">
+        <h1>Praktisk informasjon</h1>
+        <h2>Ankomst og avreise</h2>
+        <p>Deltakerne på MS- høstcamp møter opp mellom lørdag kl 17.00 og søndag kl 12.00. Når dere kommer, blir dere vist til rommet dere skal ha. De som skal på Staven Camping blir vist plassen sin der. De som reiser direkte til Staven Camping, bes gi beskjed på forhånd.</p>
+        <p>For å finne veien, kan du lese veibeskrivelsen som ligger på MS- senterets nettside. Trykk på linken <a href="http://www.mssenteret.no/praktisk-info/beliggenhet-og-adkomst/">reisevei</a> </p>
+        <p>Lørdag arrangeres det ikke aktiviteter, men det er god tid til å hilse på de andre som deltar på høstcampen. Måltidene blir som oppgitt i programmet, og serveres på MS- senteret.</p>
+        <p>Avreise er satt til søndag mellom kl 14.00 og 18.00. Gi beskjed dersom din familie vil ha middag før avreise. </p>
+        
+        <h2>Overnatting og priser</h2>
+        <p>I forbindelse med MS- høstcamp, tilbyr MS- senteret overnatting til de som foretrekker å bo der.Prisen er kr 500,- per natt for rommet.</p> 
+        <p>Alternativt tilbyr Staven Camping leie av hytter, og plass til campingvogn eller campingbil til kr 500,- per døgn.</p>
+        <p>Måltidene er inkludert i prisene på  både MS- senteret og Staven Camping.</p>
+        
+        <h2>Hvem kan jeg kontakte?</h2>
+        <p>Det er Viken MS- forening som er arrangør av MS- høstcamp på vegne av MS- forbundet i Norge. I forkant av campen, kan leder i foreningen, Trond Trondsen, kontaktes på telefon 55 66 77 88, eller mail <a title="mail" href="mailto:trond.trondsen@ms.no" target=_blank rel="external">trond.trondsen@ms.no</a>. Arrangører av camp, ansatte på senteret</p>
+        <p>Hvis det ønskes praktiske opplysninger om MS- senteret, kan Hilde Hilton kontaktes på telefon 33 44 55 66, eller mail <a title="mail" href="mailto:hilde.hilton@ms.no" target=_blank rel="external">hilde.hilton@ms.no</a>.</p>
+        <p>For praktiske opplysninger om Staven Camping, kan Steinar Staven kontaktes på telefon 99 88 77 66, eller på mail <a title="mail" href="mailto:steinar.staven@camping.no" target=_blank rel="external">steinar.staven@camping.no</a></p>
+        </article>
+    
+    </body>
+    
+<footer>
+    <div class="footer">
+        <a href="https://www.ms.no" target="_blank">
+        <p id="forbundet">Les om MS-forbundet her</p>
+        </a>
+        <a href="https://www.facebook.com/msforbundet" target="_blank">
+        <img id="fb" src="facebook.png" alt="Facebook"> 
+        </a>    
+    </div>
+</footer>
+</html>
